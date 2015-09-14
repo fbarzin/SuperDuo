@@ -1,5 +1,6 @@
 package com.fbarzin.footballwebapi;
 
+import com.fbarzin.footballwebapi.model.Fixtures;
 import com.fbarzin.footballwebapi.model.Leagues;
 import com.fbarzin.footballwebapi.model.LeagueTable;
 import com.fbarzin.footballwebapi.model.Teams;
@@ -97,5 +98,24 @@ public interface FootballService {
      */
     @GET("/soccerseasons/{id}/leagueTable")
     LeagueTable getLeagueTable(@Path("leagueId") int id);
+
+
+    /**
+     * Lists all fixtures for a certain soccer season
+     *
+     * @param id This is the league id
+     */
+    @GET("soccerseasons/{id}/fixtures")
+    void getFixtures(@Path("leagueId") int id, Callback<Fixtures> callback);
+
+
+    /**
+     * Lists all fixtures for a certain soccer season
+     *
+     * @param id This is the league id
+     * @return Fixtures
+     */
+    @GET("soccerseasons/{id}/fixtures")
+    Fixtures getFixtures(@Path("leagueId") int id);
 
 }
