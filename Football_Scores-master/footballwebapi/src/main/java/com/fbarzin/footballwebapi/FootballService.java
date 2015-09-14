@@ -105,7 +105,7 @@ public interface FootballService {
      *
      * @param id This is the league id
      */
-    @GET("soccerseasons/{id}/fixtures")
+    @GET("/soccerseasons/{id}/fixtures")
     void getFixtures(@Path("leagueId") int id, Callback<Fixtures> callback);
 
 
@@ -115,7 +115,7 @@ public interface FootballService {
      * @param id This is the league id
      * @return Fixtures
      */
-    @GET("soccerseasons/{id}/fixtures")
+    @GET("/soccerseasons/{id}/fixtures")
     Fixtures getFixtures(@Path("leagueId") int id);
 
 
@@ -128,8 +128,8 @@ public interface FootballService {
      *
      * @param callback
      */
-    @GET("fixtures")
-    void getRecentFixtures(Callback<Fixtures> callback);
+    @GET("/fixtures")
+    void getTimeFrameFixtures(@Query("timeFrame") String timeFrame, Callback<Fixtures> callback);
 
 
     /**
@@ -137,7 +137,7 @@ public interface FootballService {
      *
      * @return Fixtures
      */
-    @GET("fixtures")
-    Fixtures getRecentFixtures();
+    @GET("/fixtures")
+    Fixtures getTimeFrameFixtures(@Query("timeFrame") String timeFrame);
 
 }

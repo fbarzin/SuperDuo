@@ -1,1 +1,2 @@
-include ':app', ':footballwebapi'
+include ':footballwebapi'
+include ':app'
