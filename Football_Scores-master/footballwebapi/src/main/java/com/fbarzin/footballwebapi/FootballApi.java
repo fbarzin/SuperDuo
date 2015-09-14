@@ -3,6 +3,7 @@ package com.fbarzin.footballwebapi;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
+import retrofit.RequestInterceptor;
 import retrofit.RestAdapter;
 
 /**
@@ -27,6 +28,18 @@ public class FootballApi {
     private final FootballService mFootballService;
 
 
+    private class WebApiInterceptor implements RequestInterceptor {
+        @Override
+        public void intercept(RequestFacade request) {
+            if (mAccessToken != null) {
+                request.addHeader("X-Auth-Token", mAccessToken);
+            }
+        }
+    }
+
+    private String mAccessToken = AccessToken.ACCESS_TOKEN_STRING;
+
+
     /**
      * Create instance of FootballApi with given executors.
      *
@@ -44,6 +57,7 @@ public class FootballApi {
                 .setLogLevel(RestAdapter.LogLevel.FULL)
                 .setExecutors(httpExecutor, callbackExecutor)
                 .setEndpoint(FOOTBALL_WEB_API_ENDPOINT)
+                .setRequestInterceptor(new WebApiInterceptor())
                 .build();
 
         return restAdapter.create(FootballService.class);

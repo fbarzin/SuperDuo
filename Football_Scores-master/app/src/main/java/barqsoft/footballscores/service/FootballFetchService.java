@@ -1,8 +1,8 @@
 package barqsoft.footballscores.service;
 
 import android.app.IntentService;
-import android.content.Intent;
 import android.content.Context;
+import android.content.Intent;
 
 import com.fbarzin.footballwebapi.FootballApi;
 import com.fbarzin.footballwebapi.FootballService;
