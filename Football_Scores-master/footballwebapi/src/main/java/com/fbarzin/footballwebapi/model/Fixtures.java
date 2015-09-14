@@ -9,5 +9,7 @@ import java.util.List;
 public class Fixtures {
     public Links _links;
     public int count;
+    public String timeFrameStart;
+    public String timeFrameEnd;
     public List<Fixture> fixtures;
 }

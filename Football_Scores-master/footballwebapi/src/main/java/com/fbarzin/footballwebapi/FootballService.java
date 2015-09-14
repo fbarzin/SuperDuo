@@ -118,4 +118,26 @@ public interface FootballService {
     @GET("soccerseasons/{id}/fixtures")
     Fixtures getFixtures(@Path("leagueId") int id);
 
+
+    /******************
+     * Fixtures *
+     ******************/
+
+    /**
+     * Lists recent fixtures
+     *
+     * @param callback
+     */
+    @GET("fixtures")
+    void getRecentFixtures(Callback<Fixtures> callback);
+
+
+    /**
+     * Lists recent fixtures
+     *
+     * @return Fixtures
+     */
+    @GET("fixtures")
+    Fixtures getRecentFixtures();
+
 }
