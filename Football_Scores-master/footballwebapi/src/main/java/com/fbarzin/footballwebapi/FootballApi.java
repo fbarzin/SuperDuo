@@ -37,7 +37,7 @@ public class FootballApi {
         }
     }
 
-    private String mAccessToken = AccessToken.ACCESS_TOKEN_STRING;
+    private String mAccessToken;
 
 
     /**
@@ -72,6 +72,9 @@ public class FootballApi {
         mFootballService = init(httpExecutor, null);
     }
 
+    public void setmAccessToken(String accessToken) {
+        mAccessToken = accessToken;
+    }
 
     /**
      *
