@@ -1,6 +1,6 @@
 package com.fbarzin.footballwebapi;
 
-import com.fbarzin.footballwebapi.model.League;
+import com.fbarzin.footballwebapi.model.Leagues;
 import com.fbarzin.footballwebapi.model.LeagueTable;
 import com.fbarzin.footballwebapi.model.Teams;
 
@@ -28,7 +28,7 @@ public interface FootballService {
      * @param callback
      */
     @GET("/soccerseasons/")
-    void getSoccerSeason(Callback<List<League>> callback);
+    void getSoccerSeason(Callback<List<Leagues>> callback);
 
     /**
      * Lists all available soccer leagues for 2015 season
@@ -36,7 +36,7 @@ public interface FootballService {
      * @return SoccerSeason
      */
     @GET("/soccerseasons/")
-    List<League> getSoccerSeason();
+    List<Leagues> getSoccerSeason();
 
 
     /**
@@ -46,7 +46,7 @@ public interface FootballService {
      * @param callback
      */
     @GET("/soccerseasons/")
-    void getSoccerSeason(@Query("season") int year, Callback<List<League>> callback);
+    void getSoccerSeason(@Query("season") int year, Callback<List<Leagues>> callback);
 
 
     /**
@@ -56,7 +56,7 @@ public interface FootballService {
      * @return SoccerSeason
      */
     @GET("/soccerseasons/")
-    List<League> getSoccerSeason(@Query("season") int year);
+    List<Leagues> getSoccerSeason(@Query("season") int year);
 
 
     /**

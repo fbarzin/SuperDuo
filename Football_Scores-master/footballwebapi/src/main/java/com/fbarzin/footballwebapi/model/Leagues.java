@@ -6,7 +6,7 @@ import java.util.List;
  * @author farzad
  * @date 9/11/15
  */
-public class League {
+public class Leagues {
 
     public List<Links> _links;
     public String caption;
