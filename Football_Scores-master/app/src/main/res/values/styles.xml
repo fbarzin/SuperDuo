@@ -1,8 +1,18 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="ThemeAppCompatDark">
         <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="ThemeAppCompatDark" parent="Theme.AppCompat">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="colorPrimary">@color/grey900</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@color/orange07</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 
 </resources>
