@@ -22,7 +22,7 @@ import java.util.Date;
 import java.util.TimeZone;
 import java.util.Vector;
 
-import barqsoft.footballscores.DatabaseContract;
+import barqsoft.footballscores.data.DatabaseContract;
 import barqsoft.footballscores.R;
 
 /**
@@ -39,6 +39,7 @@ public class myFetchService extends IntentService
     @Override
     protected void onHandleIntent(Intent intent)
     {
+        Log.d(LOG_TAG, "onHandleIntent()");
         getData("n2");
         getData("p2");
 

@@ -7,9 +7,12 @@ import java.util.List;
  * @date 9/14/15
  */
 public class Fixtures {
-    public Links _links;
     public int count;
     public String timeFrameStart;
     public String timeFrameEnd;
-    public List<Fixture> fixtures;
+    private List<Fixture> fixtures;
+
+    public List<Fixture> getFixtures() {
+        return fixtures;
+    }
 }

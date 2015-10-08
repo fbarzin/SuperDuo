@@ -54,7 +54,7 @@ public class FootballApi {
     private FootballService init(Executor httpExecutor, Executor callbackExecutor) {
 
         final RestAdapter restAdapter = new RestAdapter.Builder()
-                .setLogLevel(RestAdapter.LogLevel.FULL)
+                .setLogLevel(RestAdapter.LogLevel.BASIC)
                 .setExecutors(httpExecutor, callbackExecutor)
                 .setEndpoint(FOOTBALL_WEB_API_ENDPOINT)
                 .setRequestInterceptor(new WebApiInterceptor())

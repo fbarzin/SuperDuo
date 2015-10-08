@@ -1,0 +1,332 @@
+{
+  "timeFrameStart": "2015-10-05",
+  "timeFrameEnd": "2015-10-11",
+  "count": 13,
+  "fixtures": [
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/145894"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/395"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/25"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/29"
+        }
+      },
+      "date": "2015-10-05T18:15:00Z",
+      "status": "TIMED",
+      "matchday": 10,
+      "homeTeamName": "MSV Duisburg",
+      "awayTeamName": "SC Paderborn 07",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/146647"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/397"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/544"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/528"
+        }
+      },
+      "date": "2015-10-05T18:30:00Z",
+      "status": "TIMED",
+      "matchday": 10,
+      "homeTeamName": "RC Tours",
+      "awayTeamName": "Dijon FCO",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/147783"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/254"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/745"
+        }
+      },
+      "date": "2015-10-10T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "CD Tenerife",
+      "awayTeamName": "CD Leganes",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/147902"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/1046"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/260"
+        }
+      },
+      "date": "2015-10-10T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "Athletic Bilbao B",
+      "awayTeamName": "CD Numancia de Soria",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/147779"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/285"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/595"
+        }
+      },
+      "date": "2015-10-10T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "Elche FC",
+      "awayTeamName": "CD Mirandes",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/149324"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/286"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/265"
+        }
+      },
+      "date": "2015-10-10T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "SD Ponferradina",
+      "awayTeamName": "Gimnàstic de Tarragona",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/147778"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/263"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/79"
+        }
+      },
+      "date": "2015-10-10T18:15:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "Deportivo Alavés",
+      "awayTeamName": "CA Osasuna",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/147903"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/250"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/1048"
+        }
+      },
+      "date": "2015-10-11T10:00:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "Real Valladolid",
+      "awayTeamName": "Real Oviedo",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/147781"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/596"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/295"
+        }
+      },
+      "date": "2015-10-11T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "CD Lugo",
+      "awayTeamName": "Córdoba CF",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/147782"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/89"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/744"
+        }
+      },
+      "date": "2015-10-11T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "RCD Mallorca",
+      "awayTeamName": "UE Llagostera",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/147776"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/237"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/91"
+        }
+      },
+      "date": "2015-10-11T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "Albacete",
+      "awayTeamName": "Real Zaragoza",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/147777"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/304"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/299"
+        }
+      },
+      "date": "2015-10-11T15:00:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "AD Alcorcón",
+      "awayTeamName": "Huesca",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/alpha/fixtures/147780"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/alpha/soccerseasons/400"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/alpha/teams/298"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/alpha/teams/267"
+        }
+      },
+      "date": "2015-10-11T17:15:00Z",
+      "status": "TIMED",
+      "matchday": 8,
+      "homeTeamName": "Girona FC",
+      "awayTeamName": "UD Almeria",
+      "result": {
+        "goalsHomeTeam": -1,
+        "goalsAwayTeam": -1
+      }
+    }
+  ]
+}

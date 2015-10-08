@@ -1,11 +1,13 @@
 package com.fbarzin.footballwebapi.model;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
  * @author farzad
  * @date 9/14/15
  */
 public class Fixture {
-    public Links _links;
+    @SerializedName("_links") public Links links;
     public String date;
     public String status;
     public int matchday;
