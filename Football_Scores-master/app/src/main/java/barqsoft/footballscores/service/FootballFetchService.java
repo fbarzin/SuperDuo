@@ -62,8 +62,8 @@ public class FootballFetchService extends IntentService {
         if (intent != null) {
             final String action = intent.getAction();
             if (ACTION_UPDATE_SCORES.equals(action)) {
-                updateScores("n3");
-                updateScores("p3");
+                updateScores("n2");
+                updateScores("p2");
             }
         }
     }
